@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         PalindromeOperations operations = new PalindromeOperations();
 
-        String first = "abcdedcba";
+        System.out.println("Input string:");
+        String first = operations.readString();
         System.out.println(operations.palindromeStringCheck(first));
 
         int second = 1234321;

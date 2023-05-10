@@ -1,6 +1,13 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class PalindromeOperations {
+
+    public String readString() {
+        Scanner in = new Scanner(System.in);
+        return in.nextLine();
+    }
 
     public boolean palindromeStringCheck(String first) {
         String second = reverseString(first);
